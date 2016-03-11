@@ -50,3 +50,19 @@
       |      git diff   |   git diff --cached|
       | git         diff        HEAD         |
 ```
+8. git commit
+```
+    $ git commit
+    $ git commit -m "contents"
+    $ git commit -a  //自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤
+```
+9. git rm
+```
+    $ git rm <file>
+    $ git rm --cached <file>
+    $ git rm -f <file>
+```
+10. git mv
+```
+    $ git mv README.md README  //重命名
+```
