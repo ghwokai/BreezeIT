@@ -14,6 +14,13 @@
 ```
     $ git status -s
 ```
+4.git clone [URL]
+```
+    $ git clone https://github.com/libgit2/libgit2
+
+    $ git clone https://github.com/libgit2/libgit2 mylibgit
+```
+5.git add <file/folder>
 
 
 
